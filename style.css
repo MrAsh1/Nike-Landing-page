@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background: #757F9A; 
+    background: linear-gradient(to bottom, #D7DDE8, #757F9A); 
+    position: relative;
+}
+.navbar{
+    height: 60px;
+    padding: 0 50px;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar img{
+    width: 50px;
+    margin-right: 70px;
+    cursor: pointer;
+}
+.nav1{
+    display: flex;
+    justify-content: center;
+}
+.nav1 h4{
+    margin-right: 45px;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+}
+.nav2{
+    display: flex;
+    
+}
+.nav2 i{
+    margin-right: 35px;
+    cursor: pointer;
+}
+.content{
+    width: 100%;
+    height: calc(100% - 60px);
+    display: flex;
+}
+.left{
+    width: 35%;
+    height: 100%;
+    padding: 80px 80px;
+}
+
+.left h5{
+    color: grey;
+    padding-bottom: 10px;
+}
+.left h1{
+    font-size:40px;
+    font-style: italic;
+    font-weight:900;
+    padding-bottom: 20px;
+}
+.left p{
+    color:white; 
+    padding-bottom: 20px; 
+    width: 88%
+}
+.left button{
+    display: flex;
+    background-color: black;
+    color: White;
+    padding: 10px 20px;
+    border-radius: 40px;
+    border-top-left-radius: 0px;
+    border: none;
+    cursor: pointer;
+    font-weight: bolder;
+   
+}
+.right{
+    width: 75%;
+    height: 100%;
+    box-shadow: -24px -69px 300px -25px rgba(105,96,105,0.79);
+    border-radius: 20px;
+    padding: 80px 40px;
+    position: relative;
+    white-space: nowrap;
+    overflow-x: auto;   
+}
+.right::-webkit-scrollbar{
+    display: none;
+}
+
+.lishoes{
+    background-color: white;
+    height: 350px;
+    width: 240px;
+    border-radius: 10px; 
+    position: relative;
+    margin-right: 15px;
+    box-shadow: 11px 81px 103px -57px rgba(0,0,0,0.67);
+    -webkit-box-shadow: 11px 81px 103px -57px rgba(0,0,0,0.67);
+    -moz-box-shadow: 11px 81px 103px -57px rgba(0,0,0,0.67);
+    display: inline-flex;
+    cursor: pointer;
+}
+.lishoes img{
+height: 75%;
+width: 100%;
+top: 10%;
+object-fit: cover;
+position: absolute;
+}
+.lishoes h5{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(124, 115, 115);
+    color: white;
+    font-weight: lighter;
+    font-size: smaller;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 0px;
+}
